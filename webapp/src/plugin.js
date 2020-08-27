@@ -10,7 +10,7 @@ import {id as pluginId} from './manifest';
 // eslint-disable-next-line react/require-optimization
 class ReportPlugin extends Component {
     initialize(registry, store) {
-        registry.registerPostDropdownMenuAction('Report', (postId) => {
+        registry.registerPostDropdownMenuAction('Test', (postId) => {
             const state = store.getState();
             const post = getPost(state, postId);
             const currentUser = getCurrentUser(state);
