@@ -1,4 +1,4 @@
-module github.com/rr250/mattermost-plugin-report-post/server
+module github.com/rr250/mattermost-plugin-starter/server
 
 go 1.14
 
