@@ -8,7 +8,7 @@ import {getCurrentUser, getUser} from 'mattermost-redux/selectors/entities/users
 import {id as pluginId} from './manifest';
 
 // eslint-disable-next-line react/require-optimization
-class ReportPlugin extends Component {
+class Plugin extends Component {
     initialize(registry, store) {
         registry.registerPostDropdownMenuAction('Test', (postId) => {
             const state = store.getState();
@@ -24,4 +24,4 @@ class ReportPlugin extends Component {
     }
 }
 
-export default ReportPlugin;
+export default Plugin;
